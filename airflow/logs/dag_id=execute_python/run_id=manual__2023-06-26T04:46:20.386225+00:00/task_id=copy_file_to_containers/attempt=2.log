@@ -1,0 +1,14 @@
+[2023-06-29T23:50:13.689+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.copy_file_to_containers manual__2023-06-26T04:46:20.386225+00:00 [queued]>
+[2023-06-29T23:50:13.696+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.copy_file_to_containers manual__2023-06-26T04:46:20.386225+00:00 [queued]>
+[2023-06-29T23:50:13.696+0200] {taskinstance.py:1308} INFO - Starting attempt 2 of 3
+[2023-06-29T23:50:13.710+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): copy_file_to_containers> on 2023-06-26 04:46:20.386225+00:00
+[2023-06-29T23:50:13.714+0200] {standard_task_runner.py:57} INFO - Started process 333439 to run task
+[2023-06-29T23:50:13.717+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'copy_file_to_containers', 'manual__2023-06-26T04:46:20.386225+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpgdm6k8m4']
+[2023-06-29T23:50:13.719+0200] {standard_task_runner.py:85} INFO - Job 142: Subtask copy_file_to_containers
+[2023-06-29T23:50:13.758+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.copy_file_to_containers manual__2023-06-26T04:46:20.386225+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-29T23:50:13.822+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='copy_file_to_containers' AIRFLOW_CTX_EXECUTION_DATE='2023-06-26T04:46:20.386225+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-26T04:46:20.386225+00:00'
+[2023-06-29T23:50:13.984+0200] {logging_mixin.py:149} INFO - File /home/reynel1995/Thesis/host_1/read_image.py copied to container reynel_95 volume.
+[2023-06-29T23:50:13.984+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-29T23:50:13.989+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=execute_python, task_id=copy_file_to_containers, execution_date=20230626T044620, start_date=20230629T215013, end_date=20230629T215013
+[2023-06-29T23:50:14.011+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-29T23:50:14.049+0200] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

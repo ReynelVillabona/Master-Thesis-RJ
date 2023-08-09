@@ -1,0 +1,96 @@
+[2023-06-15T23:27:41.092+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-15T23:27:41.099+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-15T23:27:41.100+0200] {taskinstance.py:1308} INFO - Starting attempt 12 of 13
+[2023-06-15T23:27:41.113+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): check_participants> on 2023-06-15 14:47:07.980597+00:00
+[2023-06-15T23:27:41.116+0200] {standard_task_runner.py:57} INFO - Started process 129792 to run task
+[2023-06-15T23:27:41.119+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ejecutar_python', 'check_participants', 'manual__2023-06-15T14:47:07.980597+00:00', '--job-id', '56', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpl59czh8o']
+[2023-06-15T23:27:41.120+0200] {standard_task_runner.py:85} INFO - Job 56: Subtask check_participants
+[2023-06-15T23:27:41.155+0200] {task_command.py:410} INFO - Running <TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-15T23:27:41.203+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ejecutar_python' AIRFLOW_CTX_TASK_ID='check_participants' AIRFLOW_CTX_EXECUTION_DATE='2023-06-15T14:47:07.980597+00:00' AIRFLOW_CTX_TRY_NUMBER='12' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-15T14:47:07.980597+00:00'
+[2023-06-15T23:27:41.204+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - ['']
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - New participants found. Creating containers...
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - 0
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - <class 'int'>
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - prueba de lista ['hola_525']
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/host_2/1_6-6.mrxs']
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - container solito hola_525
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2/1_6-6.mrxs
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2/1_6-6.mrxs
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2
+[2023-06-15T23:27:41.205+0200] {logging_mixin.py:149} INFO - nuevo /home/reynel1995/Thesis/hola_525
+[2023-06-15T23:27:41.206+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/hola_525', '', '/home/reynel1995/Thesis/hola_525']
+[2023-06-15T23:27:44.618+0200] {logging_mixin.py:149} INFO - Container hola_525 image built successfully.
+[2023-06-15T23:27:45.203+0200] {logging_mixin.py:149} INFO - Container hola_525 started.
+[2023-06-15T23:27:45.203+0200] {logging_mixin.py:149} INFO - copy files function ['/home/reynel1995/Thesis/hola_525', '', '/home/reynel1995/Thesis/hola_525']
+[2023-06-15T23:27:45.203+0200] {logging_mixin.py:149} INFO - hola_525
+[2023-06-15T23:27:45.362+0200] {logging_mixin.py:149} INFO - File /home/reynel1995/Thesis/host_1/Image_analysis.py copied to container hola_525 volume.
+[2023-06-15T23:28:56.438+0200] {logging_mixin.py:149} INFO - aca antes  los procesados [[[255   0   0]
+  [255   0   0]
+  [255   0   0]
+  ...
+  [255   0   0]
+  [255   0   0]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [218 229 233]
+  [218 229 233]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [218 229 233]
+  [218 229 233]
+  [255   0   0]]
+
+ ...
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [216 230 236]
+  [216 230 236]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [216 230 236]
+  [216 230 236]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255   0   0]
+  [255   0   0]
+  ...
+  [255   0   0]
+  [255   0   0]
+  [255   0   0]]]
+[2023-06-15T23:28:56.438+0200] {logging_mixin.py:149} INFO - tipo del output <class 'str'>
+[2023-06-15T23:28:56.439+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 321, in check_participants
+    execute_command_in_containers("python /app/Image_analysis.py", index)
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 235, in execute_command_in_containers
+    output_arrays = [arr.reshape(-1, 3) for arr in output_arrays]
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 235, in <listcomp>
+    output_arrays = [arr.reshape(-1, 3) for arr in output_arrays]
+ValueError: cannot reshape array of size 1 into shape (3)
+[2023-06-15T23:28:56.444+0200] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=ejecutar_python, task_id=check_participants, execution_date=20230615T144707, start_date=20230615T212741, end_date=20230615T212856
+[2023-06-15T23:28:56.459+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 56 for task check_participants (cannot reshape array of size 1 into shape (3); 129792)
+[2023-06-15T23:28:56.473+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-15T23:28:56.498+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

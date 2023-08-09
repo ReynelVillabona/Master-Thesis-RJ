@@ -1,0 +1,48 @@
+[2023-06-16T05:46:15.141+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-16T05:46:15.152+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-16T05:46:15.153+0200] {taskinstance.py:1308} INFO - Starting attempt 21 of 22
+[2023-06-16T05:46:15.174+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): check_participants> on 2023-06-15 14:47:07.980597+00:00
+[2023-06-16T05:46:15.180+0200] {standard_task_runner.py:57} INFO - Started process 239768 to run task
+[2023-06-16T05:46:15.184+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ejecutar_python', 'check_participants', 'manual__2023-06-15T14:47:07.980597+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmp7tjpvmj_']
+[2023-06-16T05:46:15.186+0200] {standard_task_runner.py:85} INFO - Job 65: Subtask check_participants
+[2023-06-16T05:46:15.244+0200] {task_command.py:410} INFO - Running <TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-16T05:46:15.322+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ejecutar_python' AIRFLOW_CTX_TASK_ID='check_participants' AIRFLOW_CTX_EXECUTION_DATE='2023-06-15T14:47:07.980597+00:00' AIRFLOW_CTX_TRY_NUMBER='21' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-15T14:47:07.980597+00:00'
+[2023-06-16T05:46:15.324+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-16T05:46:15.324+0200] {logging_mixin.py:149} INFO - ['']
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - New participants found. Creating containers...
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - 0
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - <class 'int'>
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - prueba de lista ['hola_525']
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/host_2/1_6-6.mrxs']
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - container solito hola_525
+[2023-06-16T05:46:15.325+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2/1_6-6.mrxs
+[2023-06-16T05:46:15.326+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2/1_6-6.mrxs
+[2023-06-16T05:46:15.326+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2
+[2023-06-16T05:46:15.326+0200] {logging_mixin.py:149} INFO - nuevo /home/reynel1995/Thesis/hola_525
+[2023-06-16T05:46:15.326+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/hola_525', '', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525']
+[2023-06-16T05:46:15.776+0200] {logging_mixin.py:149} INFO - Container hola_525 image built successfully.
+[2023-06-16T05:46:16.630+0200] {logging_mixin.py:149} INFO - Container hola_525 started.
+[2023-06-16T05:46:16.631+0200] {logging_mixin.py:149} INFO - copy files function ['/home/reynel1995/Thesis/hola_525', '', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525']
+[2023-06-16T05:46:16.631+0200] {logging_mixin.py:149} INFO - hola_525
+[2023-06-16T05:46:16.763+0200] {logging_mixin.py:149} INFO - File /home/reynel1995/Thesis/host_1/Image_analysis.py copied to container hola_525 volume.
+[2023-06-16T05:48:15.005+0200] {logging_mixin.py:149} INFO - Command 'python /app/Image_analysis.py' executed in container hola_525.
+[2023-06-16T05:48:17.805+0200] {logging_mixin.py:149} INFO - Array copied to /home/reynel1995/Thesis/host_1/hola_525/result.npy
+[2023-06-16T05:48:17.806+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 329, in check_participants
+    execute_command_in_containers("python /app/Image_analysis.py", index)
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 252, in execute_command_in_containers
+    array = np.load(array_path)
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/numpy/lib/npyio.py", line 405, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: '/home/reynel1995/Thesis/host_1/hola_525/result.npy'
+[2023-06-16T05:48:17.959+0200] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=ejecutar_python, task_id=check_participants, execution_date=20230615T144707, start_date=20230616T034615, end_date=20230616T034817
+[2023-06-16T05:48:18.294+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 65 for task check_participants ([Errno 2] No such file or directory: '/home/reynel1995/Thesis/host_1/hola_525/result.npy'; 239768)
+[2023-06-16T05:48:18.311+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-16T05:48:18.396+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

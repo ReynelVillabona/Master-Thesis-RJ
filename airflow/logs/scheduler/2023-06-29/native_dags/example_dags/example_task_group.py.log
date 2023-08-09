@@ -1,0 +1,945 @@
+[2023-06-29T23:24:38.725+0200] {processor.py:157} INFO - Started process (PID=326037) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:24:38.726+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:24:38.727+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:24:38.726+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:24:38.739+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:24:38.751+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:24:38.751+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:24:38.774+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:24:38.774+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:24:38.774559+00:00, run_after=2023-06-29T21:24:38.774559+00:00
+[2023-06-29T23:24:38.798+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.076 seconds
+[2023-06-29T23:25:10.126+0200] {processor.py:157} INFO - Started process (PID=326229) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:25:10.127+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:25:10.128+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:25:10.128+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:25:10.135+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:25:10.275+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:25:10.275+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:25:10.292+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:25:10.292+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:25:10.292171+00:00, run_after=2023-06-29T21:25:10.292171+00:00
+[2023-06-29T23:25:10.318+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.195 seconds
+[2023-06-29T23:25:40.740+0200] {processor.py:157} INFO - Started process (PID=326341) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:25:40.741+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:25:40.742+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:25:40.742+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:25:40.751+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:25:40.772+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:25:40.772+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:25:40.793+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:25:40.792+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:25:40.792477+00:00, run_after=2023-06-29T21:25:40.792477+00:00
+[2023-06-29T23:25:40.818+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.082 seconds
+[2023-06-29T23:26:11.483+0200] {processor.py:157} INFO - Started process (PID=326452) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:26:11.484+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:26:11.485+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:26:11.485+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:26:11.493+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:26:11.517+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:26:11.517+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:26:11.537+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:26:11.536+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:26:11.536384+00:00, run_after=2023-06-29T21:26:11.536384+00:00
+[2023-06-29T23:26:11.569+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.089 seconds
+[2023-06-29T23:26:42.325+0200] {processor.py:157} INFO - Started process (PID=326561) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:26:42.326+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:26:42.326+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:26:42.326+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:26:42.334+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:26:42.357+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:26:42.357+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:26:42.383+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:26:42.383+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:26:42.383024+00:00, run_after=2023-06-29T21:26:42.383024+00:00
+[2023-06-29T23:26:42.412+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2023-06-29T23:27:13.084+0200] {processor.py:157} INFO - Started process (PID=326676) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:27:13.086+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:27:13.087+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:27:13.087+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:27:13.096+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:27:13.115+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:27:13.115+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:27:13.139+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:27:13.139+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:27:13.139028+00:00, run_after=2023-06-29T21:27:13.139028+00:00
+[2023-06-29T23:27:13.162+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-29T23:27:43.751+0200] {processor.py:157} INFO - Started process (PID=326787) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:27:43.752+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:27:43.752+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:27:43.752+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:27:43.760+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:27:43.782+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:27:43.782+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:27:43.806+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:27:43.805+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:27:43.805550+00:00, run_after=2023-06-29T21:27:43.805550+00:00
+[2023-06-29T23:27:43.838+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2023-06-29T23:28:14.789+0200] {processor.py:157} INFO - Started process (PID=326897) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:28:14.791+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:28:14.792+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:28:14.791+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:28:14.798+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:28:14.819+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:28:14.818+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:28:14.837+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:28:14.837+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:28:14.836837+00:00, run_after=2023-06-29T21:28:14.836837+00:00
+[2023-06-29T23:28:14.859+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2023-06-29T23:28:45.589+0200] {processor.py:157} INFO - Started process (PID=327006) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:28:45.590+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:28:45.591+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:28:45.591+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:28:45.600+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:28:45.622+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:28:45.622+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:28:45.641+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:28:45.641+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:28:45.641547+00:00, run_after=2023-06-29T21:28:45.641547+00:00
+[2023-06-29T23:28:45.667+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-29T23:29:16.486+0200] {processor.py:157} INFO - Started process (PID=327114) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:29:16.488+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:29:16.488+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:29:16.488+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:29:16.500+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:29:16.527+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:29:16.527+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:29:16.554+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:29:16.554+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:29:16.554244+00:00, run_after=2023-06-29T21:29:16.554244+00:00
+[2023-06-29T23:29:16.589+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.108 seconds
+[2023-06-29T23:29:46.813+0200] {processor.py:157} INFO - Started process (PID=327250) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:29:46.814+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:29:46.815+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:29:46.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:29:46.825+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:29:46.849+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:29:46.849+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:29:46.873+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:29:46.872+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:29:46.872613+00:00, run_after=2023-06-29T21:29:46.872613+00:00
+[2023-06-29T23:29:46.977+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.167 seconds
+[2023-06-29T23:30:17.894+0200] {processor.py:157} INFO - Started process (PID=327365) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:30:17.924+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:30:17.925+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:30:17.925+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:30:17.936+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:30:17.961+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:30:17.961+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:30:17.980+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:30:17.980+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:30:17.980277+00:00, run_after=2023-06-29T21:30:17.980277+00:00
+[2023-06-29T23:30:18.077+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.188 seconds
+[2023-06-29T23:30:49.084+0200] {processor.py:157} INFO - Started process (PID=327478) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:30:49.091+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:30:49.092+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:30:49.092+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:30:49.102+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:30:49.137+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:30:49.137+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:30:49.162+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:30:49.162+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:30:49.161663+00:00, run_after=2023-06-29T21:30:49.161663+00:00
+[2023-06-29T23:30:49.201+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.122 seconds
+[2023-06-29T23:31:19.331+0200] {processor.py:157} INFO - Started process (PID=327601) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:31:19.332+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:31:19.333+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:31:19.333+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:31:19.340+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:31:19.364+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:31:19.363+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:31:19.383+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:31:19.383+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:31:19.383017+00:00, run_after=2023-06-29T21:31:19.383017+00:00
+[2023-06-29T23:31:19.407+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-29T23:31:50.137+0200] {processor.py:157} INFO - Started process (PID=327710) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:31:50.143+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:31:50.144+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:31:50.144+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:31:50.153+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:31:50.179+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:31:50.178+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:31:50.201+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:31:50.200+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:31:50.200701+00:00, run_after=2023-06-29T21:31:50.200701+00:00
+[2023-06-29T23:31:50.231+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.098 seconds
+[2023-06-29T23:32:21.110+0200] {processor.py:157} INFO - Started process (PID=327831) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:32:21.111+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:32:21.111+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:32:21.111+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:32:21.119+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:32:21.143+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:32:21.143+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:32:21.162+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:32:21.162+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:32:21.161900+00:00, run_after=2023-06-29T21:32:21.161900+00:00
+[2023-06-29T23:32:21.192+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2023-06-29T23:32:51.649+0200] {processor.py:157} INFO - Started process (PID=327951) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:32:51.650+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:32:51.651+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:32:51.651+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:32:51.659+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:32:51.687+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:32:51.687+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:32:51.720+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:32:51.720+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:32:51.719630+00:00, run_after=2023-06-29T21:32:51.719630+00:00
+[2023-06-29T23:32:51.754+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.110 seconds
+[2023-06-29T23:33:21.897+0200] {processor.py:157} INFO - Started process (PID=328073) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:33:21.899+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:33:21.899+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:33:21.899+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:33:21.911+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:33:21.935+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:33:21.935+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:33:21.960+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:33:21.959+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:33:21.959636+00:00, run_after=2023-06-29T21:33:21.959636+00:00
+[2023-06-29T23:33:21.984+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2023-06-29T23:33:52.138+0200] {processor.py:157} INFO - Started process (PID=328182) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:33:52.140+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:33:52.140+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:33:52.140+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:33:52.150+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:33:52.173+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:33:52.173+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:33:52.192+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:33:52.192+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:33:52.192526+00:00, run_after=2023-06-29T21:33:52.192526+00:00
+[2023-06-29T23:33:52.228+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.094 seconds
+[2023-06-29T23:34:22.781+0200] {processor.py:157} INFO - Started process (PID=328294) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:34:22.782+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:34:22.782+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:34:22.782+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:34:22.790+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:34:22.815+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:34:22.815+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:34:22.838+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:34:22.838+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:34:22.838150+00:00, run_after=2023-06-29T21:34:22.838150+00:00
+[2023-06-29T23:34:22.863+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2023-06-29T23:34:53.492+0200] {processor.py:157} INFO - Started process (PID=328509) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:34:53.498+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:34:53.499+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:34:53.499+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:34:53.509+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:34:53.532+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:34:53.531+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:34:53.557+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:34:53.557+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:34:53.557010+00:00, run_after=2023-06-29T21:34:53.557010+00:00
+[2023-06-29T23:34:53.586+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.099 seconds
+[2023-06-29T23:35:24.336+0200] {processor.py:157} INFO - Started process (PID=328786) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:35:24.337+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:35:24.338+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:35:24.338+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:35:24.346+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:35:24.370+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:35:24.370+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:35:24.392+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:35:24.392+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:35:24.392030+00:00, run_after=2023-06-29T21:35:24.392030+00:00
+[2023-06-29T23:35:24.422+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2023-06-29T23:35:54.667+0200] {processor.py:157} INFO - Started process (PID=328976) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:35:54.669+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:35:54.670+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:35:54.670+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:35:54.681+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:35:54.707+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:35:54.707+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:35:54.730+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:35:54.730+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:35:54.730526+00:00, run_after=2023-06-29T21:35:54.730526+00:00
+[2023-06-29T23:35:54.758+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.094 seconds
+[2023-06-29T23:36:24.949+0200] {processor.py:157} INFO - Started process (PID=329205) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:36:24.951+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:36:24.951+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:36:24.951+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:36:24.959+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:36:24.981+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:36:24.981+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:36:25.000+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:36:25.000+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:36:25.000029+00:00, run_after=2023-06-29T21:36:25.000029+00:00
+[2023-06-29T23:36:25.030+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2023-06-29T23:36:55.091+0200] {processor.py:157} INFO - Started process (PID=329375) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:36:55.093+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:36:55.093+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:36:55.093+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:36:55.102+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:36:55.127+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:36:55.126+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:36:55.146+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:36:55.146+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:36:55.146430+00:00, run_after=2023-06-29T21:36:55.146430+00:00
+[2023-06-29T23:36:55.170+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2023-06-29T23:37:25.666+0200] {processor.py:157} INFO - Started process (PID=329487) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:37:25.667+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:37:25.667+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:37:25.667+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:37:25.674+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:37:25.693+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:37:25.693+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:37:25.715+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:37:25.715+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:37:25.714840+00:00, run_after=2023-06-29T21:37:25.714840+00:00
+[2023-06-29T23:37:25.741+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2023-06-29T23:37:56.130+0200] {processor.py:157} INFO - Started process (PID=329598) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:37:56.131+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:37:56.132+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:37:56.132+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:37:56.139+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:37:56.161+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:37:56.161+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:37:56.180+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:37:56.180+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:37:56.179809+00:00, run_after=2023-06-29T21:37:56.179809+00:00
+[2023-06-29T23:37:56.208+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-29T23:38:27.006+0200] {processor.py:157} INFO - Started process (PID=329709) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:38:27.007+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:38:27.008+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:38:27.008+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:38:27.016+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:38:27.037+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:38:27.037+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:38:27.057+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:38:27.057+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:38:27.056939+00:00, run_after=2023-06-29T21:38:27.056939+00:00
+[2023-06-29T23:38:27.079+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.077 seconds
+[2023-06-29T23:38:57.813+0200] {processor.py:157} INFO - Started process (PID=329818) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:38:57.814+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:38:57.814+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:38:57.814+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:38:57.822+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:38:57.844+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:38:57.843+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:38:57.869+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:38:57.869+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:38:57.868985+00:00, run_after=2023-06-29T21:38:57.868985+00:00
+[2023-06-29T23:38:57.898+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.089 seconds
+[2023-06-29T23:39:28.505+0200] {processor.py:157} INFO - Started process (PID=329933) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:39:28.505+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:39:28.506+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:39:28.506+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:39:28.513+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:39:28.537+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:39:28.537+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:39:28.560+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:39:28.560+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:39:28.560198+00:00, run_after=2023-06-29T21:39:28.560198+00:00
+[2023-06-29T23:39:28.583+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.082 seconds
+[2023-06-29T23:39:59.140+0200] {processor.py:157} INFO - Started process (PID=330063) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:39:59.141+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:39:59.142+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:39:59.141+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:39:59.149+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:39:59.174+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:39:59.174+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:39:59.194+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:39:59.194+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:39:59.194147+00:00, run_after=2023-06-29T21:39:59.194147+00:00
+[2023-06-29T23:39:59.218+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-29T23:40:29.998+0200] {processor.py:157} INFO - Started process (PID=330175) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:40:29.998+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:40:29.999+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:40:29.999+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:40:30.010+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:40:30.032+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:40:30.031+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:40:30.053+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:40:30.053+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:40:30.052915+00:00, run_after=2023-06-29T21:40:30.052915+00:00
+[2023-06-29T23:40:30.081+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2023-06-29T23:41:02.055+0200] {processor.py:157} INFO - Started process (PID=330373) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:41:02.058+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:41:02.059+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:41:02.059+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:41:02.069+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:41:02.136+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:41:02.136+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:41:02.179+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:41:02.179+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:41:02.178867+00:00, run_after=2023-06-29T21:41:02.178867+00:00
+[2023-06-29T23:41:02.238+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.196 seconds
+[2023-06-29T23:41:32.445+0200] {processor.py:157} INFO - Started process (PID=330816) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:41:32.446+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:41:32.447+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:41:32.447+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:41:32.468+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:41:32.498+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:41:32.498+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:41:32.540+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:41:32.540+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:41:32.539676+00:00, run_after=2023-06-29T21:41:32.539676+00:00
+[2023-06-29T23:41:32.606+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.173 seconds
+[2023-06-29T23:42:03.647+0200] {processor.py:157} INFO - Started process (PID=331191) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:42:03.649+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:42:03.650+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:42:03.650+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:42:03.659+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:42:03.691+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:42:03.691+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:42:03.731+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:42:03.730+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:42:03.730704+00:00, run_after=2023-06-29T21:42:03.730704+00:00
+[2023-06-29T23:42:03.771+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.128 seconds
+[2023-06-29T23:42:34.194+0200] {processor.py:157} INFO - Started process (PID=331434) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:42:34.196+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:42:34.197+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:42:34.197+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:42:34.242+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:42:34.317+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:42:34.317+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:42:34.362+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:42:34.361+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:42:34.361476+00:00, run_after=2023-06-29T21:42:34.361476+00:00
+[2023-06-29T23:42:34.431+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.241 seconds
+[2023-06-29T23:43:16.757+0200] {processor.py:157} INFO - Started process (PID=331566) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:43:16.759+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:43:16.760+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:43:16.760+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:43:16.770+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:43:16.794+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:43:16.794+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:43:16.817+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:43:16.817+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:43:16.817260+00:00, run_after=2023-06-29T21:43:16.817260+00:00
+[2023-06-29T23:43:16.865+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.113 seconds
+[2023-06-29T23:43:47.869+0200] {processor.py:157} INFO - Started process (PID=331677) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:43:47.869+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:43:47.870+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:43:47.870+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:43:47.879+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:43:47.900+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:43:47.900+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:43:47.922+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:43:47.922+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:43:47.921967+00:00, run_after=2023-06-29T21:43:47.921967+00:00
+[2023-06-29T23:43:47.989+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.124 seconds
+[2023-06-29T23:44:18.590+0200] {processor.py:157} INFO - Started process (PID=331786) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:44:18.594+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:44:18.595+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:44:18.595+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:44:18.605+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:44:18.644+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:44:18.643+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:44:18.691+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:44:18.691+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:44:18.690556+00:00, run_after=2023-06-29T21:44:18.690556+00:00
+[2023-06-29T23:44:18.793+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.208 seconds
+[2023-06-29T23:44:49.561+0200] {processor.py:157} INFO - Started process (PID=331929) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:44:49.562+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:44:49.563+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:44:49.563+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:44:49.570+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:44:49.590+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:44:49.590+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:44:49.615+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:44:49.614+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:44:49.614538+00:00, run_after=2023-06-29T21:44:49.614538+00:00
+[2023-06-29T23:44:49.703+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.145 seconds
+[2023-06-29T23:45:20.028+0200] {processor.py:157} INFO - Started process (PID=332042) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:45:20.034+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:45:20.035+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:45:20.035+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:45:20.047+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:45:20.076+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:45:20.075+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:45:20.107+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:45:20.107+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:45:20.107061+00:00, run_after=2023-06-29T21:45:20.107061+00:00
+[2023-06-29T23:45:20.160+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.136 seconds
+[2023-06-29T23:45:50.492+0200] {processor.py:157} INFO - Started process (PID=332152) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:45:50.493+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:45:50.493+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:45:50.493+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:45:50.502+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:45:50.527+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:45:50.526+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:45:50.549+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:45:50.549+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:45:50.548840+00:00, run_after=2023-06-29T21:45:50.548840+00:00
+[2023-06-29T23:45:50.582+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.095 seconds
+[2023-06-29T23:46:21.441+0200] {processor.py:157} INFO - Started process (PID=332261) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:46:21.468+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:46:21.469+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:46:21.469+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:46:21.482+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:46:21.524+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:46:21.524+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:46:21.557+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:46:21.557+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:46:21.557026+00:00, run_after=2023-06-29T21:46:21.557026+00:00
+[2023-06-29T23:46:21.619+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.184 seconds
+[2023-06-29T23:46:51.980+0200] {processor.py:157} INFO - Started process (PID=332373) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:46:51.983+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:46:51.984+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:46:51.984+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:46:52.003+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:46:52.034+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:46:52.034+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:46:52.054+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:46:52.054+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:46:52.054023+00:00, run_after=2023-06-29T21:46:52.054023+00:00
+[2023-06-29T23:46:52.136+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.161 seconds
+[2023-06-29T23:47:22.318+0200] {processor.py:157} INFO - Started process (PID=332491) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:47:22.320+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:47:22.321+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:47:22.321+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:47:22.328+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:47:22.349+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:47:22.349+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:47:22.372+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:47:22.372+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:47:22.371741+00:00, run_after=2023-06-29T21:47:22.371741+00:00
+[2023-06-29T23:47:22.413+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.098 seconds
+[2023-06-29T23:47:53.347+0200] {processor.py:157} INFO - Started process (PID=332600) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:47:53.348+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:47:53.349+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:47:53.349+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:47:53.356+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:47:53.380+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:47:53.380+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:47:53.403+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:47:53.403+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:47:53.402896+00:00, run_after=2023-06-29T21:47:53.402896+00:00
+[2023-06-29T23:47:53.427+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2023-06-29T23:48:23.768+0200] {processor.py:157} INFO - Started process (PID=332709) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:48:23.770+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:48:23.770+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:48:23.770+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:48:23.781+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:48:23.807+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:48:23.806+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:48:23.830+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:48:23.830+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:48:23.830078+00:00, run_after=2023-06-29T21:48:23.830078+00:00
+[2023-06-29T23:48:23.856+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2023-06-29T23:48:54.115+0200] {processor.py:157} INFO - Started process (PID=332820) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:48:54.116+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:48:54.116+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:48:54.116+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:48:54.127+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:48:54.149+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:48:54.149+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:48:54.177+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:48:54.177+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:48:54.176788+00:00, run_after=2023-06-29T21:48:54.176788+00:00
+[2023-06-29T23:48:54.208+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.097 seconds
+[2023-06-29T23:49:24.772+0200] {processor.py:157} INFO - Started process (PID=332954) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:49:24.774+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:49:24.775+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:49:24.775+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:49:24.783+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:49:24.803+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:49:24.803+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:49:24.823+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:49:24.823+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:49:24.823620+00:00, run_after=2023-06-29T21:49:24.823620+00:00
+[2023-06-29T23:49:24.847+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2023-06-29T23:49:55.385+0200] {processor.py:157} INFO - Started process (PID=333129) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:49:55.386+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:49:55.386+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:49:55.386+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:49:55.395+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:49:55.418+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:49:55.417+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:49:55.440+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:49:55.440+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:49:55.440200+00:00, run_after=2023-06-29T21:49:55.440200+00:00
+[2023-06-29T23:49:55.467+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2023-06-29T23:50:26.223+0200] {processor.py:157} INFO - Started process (PID=333680) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:50:26.229+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:50:26.231+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:50:26.231+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:50:26.241+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:50:26.288+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:50:26.288+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:50:26.339+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:50:26.338+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:50:26.338406+00:00, run_after=2023-06-29T21:50:26.338406+00:00
+[2023-06-29T23:50:26.385+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.167 seconds
+[2023-06-29T23:51:13.575+0200] {processor.py:157} INFO - Started process (PID=334077) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:51:13.577+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:51:13.577+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:51:13.577+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:51:13.591+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:51:13.626+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:51:13.626+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:51:13.658+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:51:13.658+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:51:13.658259+00:00, run_after=2023-06-29T21:51:13.658259+00:00
+[2023-06-29T23:51:13.689+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.119 seconds
+[2023-06-29T23:51:50.856+0200] {processor.py:157} INFO - Started process (PID=334253) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:51:51.041+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:51:51.042+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:51:51.042+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:51:51.065+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:51:51.204+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:51:51.204+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:51:51.276+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:51:51.275+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:51:51.275437+00:00, run_after=2023-06-29T21:51:51.275437+00:00
+[2023-06-29T23:51:52.010+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 1.160 seconds
+[2023-06-29T23:52:22.304+0200] {processor.py:157} INFO - Started process (PID=334370) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:52:22.335+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:52:22.336+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:52:22.336+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:52:22.352+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:52:22.392+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:52:22.392+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:52:22.411+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:52:22.411+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:52:22.411352+00:00, run_after=2023-06-29T21:52:22.411352+00:00
+[2023-06-29T23:52:22.772+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.472 seconds
+[2023-06-29T23:52:59.806+0200] {processor.py:157} INFO - Started process (PID=334509) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:52:59.848+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:52:59.850+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:52:59.849+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:52:59.861+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:52:59.980+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:52:59.980+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:53:00.005+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:53:00.004+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:53:00.004672+00:00, run_after=2023-06-29T21:53:00.004672+00:00
+[2023-06-29T23:53:01.213+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 1.410 seconds
+[2023-06-29T23:53:43.215+0200] {processor.py:157} INFO - Started process (PID=334646) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:53:43.217+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:53:43.218+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:53:43.218+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:53:43.228+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:53:43.259+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:53:43.258+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:53:43.287+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:53:43.287+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:53:43.287474+00:00, run_after=2023-06-29T21:53:43.287474+00:00
+[2023-06-29T23:53:43.324+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2023-06-29T23:54:14.605+0200] {processor.py:157} INFO - Started process (PID=334823) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:54:14.606+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:54:14.607+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:54:14.606+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:54:14.616+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:54:14.642+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:54:14.642+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:54:14.671+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:54:14.671+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:54:14.671217+00:00, run_after=2023-06-29T21:54:14.671217+00:00
+[2023-06-29T23:54:14.719+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2023-06-29T23:54:56.489+0200] {processor.py:157} INFO - Started process (PID=335057) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:54:57.123+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:54:57.124+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:54:57.124+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:54:57.136+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:54:57.157+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:54:57.157+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:54:57.373+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:54:57.373+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:54:57.372947+00:00, run_after=2023-06-29T21:54:57.372947+00:00
+[2023-06-29T23:55:04.873+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 8.390 seconds
+[2023-06-29T23:55:36.819+0200] {processor.py:157} INFO - Started process (PID=335187) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:55:36.832+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:55:36.833+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:55:36.833+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:55:36.846+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:55:36.955+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:55:36.955+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:55:37.142+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:55:37.141+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:55:37.141455+00:00, run_after=2023-06-29T21:55:37.141455+00:00
+[2023-06-29T23:55:37.362+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.548 seconds
+[2023-06-29T23:56:07.548+0200] {processor.py:157} INFO - Started process (PID=335298) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:56:07.550+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:56:07.551+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:56:07.551+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:56:07.561+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:56:07.694+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:56:07.694+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:56:07.733+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:56:07.733+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:56:07.732616+00:00, run_after=2023-06-29T21:56:07.732616+00:00
+[2023-06-29T23:56:08.260+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.721 seconds
+[2023-06-29T23:56:38.325+0200] {processor.py:157} INFO - Started process (PID=335430) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:56:38.346+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:56:38.347+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:56:38.347+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:56:38.362+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:56:38.411+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:56:38.410+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:56:38.440+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:56:38.439+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:56:38.439714+00:00, run_after=2023-06-29T21:56:38.439714+00:00
+[2023-06-29T23:56:38.492+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.170 seconds
+[2023-06-29T23:57:09.101+0200] {processor.py:157} INFO - Started process (PID=335567) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:57:09.102+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:57:09.103+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:57:09.102+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:57:09.111+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:57:09.133+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:57:09.133+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:57:09.153+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:57:09.153+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:57:09.153118+00:00, run_after=2023-06-29T21:57:09.153118+00:00
+[2023-06-29T23:57:09.182+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2023-06-29T23:57:39.370+0200] {processor.py:157} INFO - Started process (PID=335678) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:57:39.371+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:57:39.372+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:57:39.372+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:57:39.382+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:57:39.412+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:57:39.411+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:57:39.438+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:57:39.438+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:57:39.437954+00:00, run_after=2023-06-29T21:57:39.437954+00:00
+[2023-06-29T23:57:39.494+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.129 seconds
+[2023-06-29T23:58:09.807+0200] {processor.py:157} INFO - Started process (PID=335789) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:58:09.814+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:58:09.815+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:58:09.815+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:58:09.823+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:58:09.844+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:58:09.844+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:58:09.863+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:58:09.862+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:58:09.862791+00:00, run_after=2023-06-29T21:58:09.862791+00:00
+[2023-06-29T23:58:09.939+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.135 seconds
+[2023-06-29T23:58:40.124+0200] {processor.py:157} INFO - Started process (PID=335898) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:58:40.125+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:58:40.126+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:58:40.126+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:58:40.134+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:58:40.156+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:58:40.156+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:58:40.176+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:58:40.176+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:58:40.176389+00:00, run_after=2023-06-29T21:58:40.176389+00:00
+[2023-06-29T23:58:40.202+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2023-06-29T23:59:11.063+0200] {processor.py:157} INFO - Started process (PID=336009) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:59:11.069+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:59:11.070+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:59:11.070+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:59:11.081+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:59:11.109+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:59:11.109+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:59:11.135+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:59:11.135+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:59:11.134810+00:00, run_after=2023-06-29T21:59:11.134810+00:00
+[2023-06-29T23:59:11.157+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.098 seconds
+[2023-06-29T23:59:41.744+0200] {processor.py:157} INFO - Started process (PID=336141) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:59:41.745+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-29T23:59:41.745+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:59:41.745+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:59:41.757+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-29T23:59:41.785+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:59:41.785+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-29T23:59:41.818+0200] {logging_mixin.py:149} INFO - [2023-06-29T23:59:41.818+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T21:59:41.817956+00:00, run_after=2023-06-29T21:59:41.817956+00:00
+[2023-06-29T23:59:41.839+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.099 seconds
+[2023-06-30T00:00:12.580+0200] {processor.py:157} INFO - Started process (PID=336257) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:00:12.582+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:00:12.583+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:00:12.582+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:00:12.594+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:00:12.618+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:00:12.617+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:00:12.639+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:00:12.639+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:00:12.639244+00:00, run_after=2023-06-29T22:00:12.639244+00:00
+[2023-06-30T00:00:12.669+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.092 seconds
+[2023-06-30T00:00:43.378+0200] {processor.py:157} INFO - Started process (PID=336370) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:00:43.379+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:00:43.380+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:00:43.380+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:00:43.388+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:00:43.410+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:00:43.409+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:00:43.429+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:00:43.428+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:00:43.428724+00:00, run_after=2023-06-29T22:00:43.428724+00:00
+[2023-06-30T00:00:43.456+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-30T00:01:14.002+0200] {processor.py:157} INFO - Started process (PID=336485) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:01:14.009+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:01:14.009+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:01:14.009+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:01:14.018+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:01:14.039+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:01:14.039+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:01:14.059+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:01:14.059+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:01:14.059073+00:00, run_after=2023-06-29T22:01:14.059073+00:00
+[2023-06-30T00:01:14.087+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2023-06-30T00:01:44.376+0200] {processor.py:157} INFO - Started process (PID=336605) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:01:44.377+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:01:44.378+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:01:44.378+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:01:44.386+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:01:44.407+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:01:44.407+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:01:44.424+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:01:44.424+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:01:44.424258+00:00, run_after=2023-06-29T22:01:44.424258+00:00
+[2023-06-30T00:01:44.450+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2023-06-30T00:02:14.769+0200] {processor.py:157} INFO - Started process (PID=336714) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:02:14.775+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:02:14.776+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:02:14.775+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:02:14.784+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:02:14.806+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:02:14.806+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:02:14.936+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:02:14.936+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:02:14.936482+00:00, run_after=2023-06-29T22:02:14.936482+00:00
+[2023-06-30T00:02:14.961+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.196 seconds
+[2023-06-30T00:02:45.223+0200] {processor.py:157} INFO - Started process (PID=336824) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:02:45.225+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:02:45.226+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:02:45.225+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:02:45.235+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:02:45.259+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:02:45.258+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:02:45.395+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:02:45.395+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:02:45.395174+00:00, run_after=2023-06-29T22:02:45.395174+00:00
+[2023-06-30T00:02:45.420+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.200 seconds
+[2023-06-30T00:03:16.348+0200] {processor.py:157} INFO - Started process (PID=336933) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:03:16.355+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:03:16.356+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:03:16.356+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:03:16.363+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:03:16.385+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:03:16.385+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:03:16.406+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:03:16.406+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:03:16.406056+00:00, run_after=2023-06-29T22:03:16.406056+00:00
+[2023-06-30T00:03:16.529+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.184 seconds
+[2023-06-30T00:03:47.072+0200] {processor.py:157} INFO - Started process (PID=337044) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:03:47.073+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:03:47.074+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:03:47.074+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:03:47.082+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:03:47.103+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:03:47.103+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:03:47.123+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:03:47.123+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:03:47.123168+00:00, run_after=2023-06-29T22:03:47.123168+00:00
+[2023-06-30T00:03:47.148+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.079 seconds
+[2023-06-30T00:04:17.609+0200] {processor.py:157} INFO - Started process (PID=337153) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:04:17.610+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:04:17.610+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:04:17.610+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:04:17.618+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:04:17.639+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:04:17.638+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:04:17.657+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:04:17.657+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:04:17.657013+00:00, run_after=2023-06-29T22:04:17.657013+00:00
+[2023-06-30T00:04:17.686+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-30T00:04:48.070+0200] {processor.py:157} INFO - Started process (PID=337283) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:04:48.072+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:04:48.074+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:04:48.074+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:04:48.084+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:04:48.109+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:04:48.109+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:04:48.131+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:04:48.130+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:04:48.130601+00:00, run_after=2023-06-29T22:04:48.130601+00:00
+[2023-06-30T00:04:48.155+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.089 seconds
+[2023-06-30T00:05:18.605+0200] {processor.py:157} INFO - Started process (PID=337398) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:05:18.606+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:05:18.607+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:05:18.607+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:05:18.616+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:05:18.637+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:05:18.637+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:05:18.657+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:05:18.657+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:05:18.657385+00:00, run_after=2023-06-29T22:05:18.657385+00:00
+[2023-06-30T00:05:18.684+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.082 seconds
+[2023-06-30T00:05:48.962+0200] {processor.py:157} INFO - Started process (PID=337510) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:05:48.965+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:05:48.966+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:05:48.966+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:05:48.973+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:05:48.996+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:05:48.995+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:05:49.017+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:05:49.017+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:05:49.017101+00:00, run_after=2023-06-29T22:05:49.017101+00:00
+[2023-06-30T00:05:49.045+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.086 seconds
+[2023-06-30T00:06:19.320+0200] {processor.py:157} INFO - Started process (PID=337619) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:06:19.322+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:06:19.322+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:06:19.322+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:06:19.331+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:06:19.351+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:06:19.351+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:06:19.378+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:06:19.377+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:06:19.377668+00:00, run_after=2023-06-29T22:06:19.377668+00:00
+[2023-06-30T00:06:19.411+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.095 seconds
+[2023-06-30T00:06:49.974+0200] {processor.py:157} INFO - Started process (PID=337728) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:06:49.976+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:06:49.977+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:06:49.977+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:06:49.984+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:06:50.007+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:06:50.007+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:06:50.026+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:06:50.026+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:06:50.026313+00:00, run_after=2023-06-29T22:06:50.026313+00:00
+[2023-06-30T00:06:50.051+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.081 seconds
+[2023-06-30T00:07:20.808+0200] {processor.py:157} INFO - Started process (PID=337839) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:07:20.809+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:07:20.810+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:07:20.810+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:07:20.818+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:07:20.838+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:07:20.837+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:07:20.856+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:07:20.856+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:07:20.856272+00:00, run_after=2023-06-29T22:07:20.856272+00:00
+[2023-06-30T00:07:20.884+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2023-06-30T00:07:51.193+0200] {processor.py:157} INFO - Started process (PID=337948) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:07:51.200+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:07:51.201+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:07:51.201+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:07:51.209+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:07:51.229+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:07:51.229+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:07:51.248+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:07:51.248+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:07:51.247818+00:00, run_after=2023-06-29T22:07:51.247818+00:00
+[2023-06-30T00:07:51.274+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2023-06-30T00:08:21.865+0200] {processor.py:157} INFO - Started process (PID=338058) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:08:21.866+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:08:21.867+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:08:21.866+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:08:21.874+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:08:21.897+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:08:21.897+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:08:21.918+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:08:21.918+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:08:21.918105+00:00, run_after=2023-06-29T22:08:21.918105+00:00
+[2023-06-30T00:08:21.943+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2023-06-30T00:08:52.302+0200] {processor.py:157} INFO - Started process (PID=338167) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:08:52.304+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:08:52.304+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:08:52.304+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:08:52.311+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:08:52.330+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:08:52.330+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:08:52.348+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:08:52.348+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:08:52.348212+00:00, run_after=2023-06-29T22:08:52.348212+00:00
+[2023-06-30T00:08:52.370+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2023-06-30T00:09:22.513+0200] {processor.py:157} INFO - Started process (PID=338278) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:09:22.514+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:09:22.515+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:09:22.515+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:09:22.522+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:09:22.542+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:09:22.542+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:09:22.562+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:09:22.562+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:09:22.562289+00:00, run_after=2023-06-29T22:09:22.562289+00:00
+[2023-06-30T00:09:22.587+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.077 seconds
+[2023-06-30T00:09:52.857+0200] {processor.py:157} INFO - Started process (PID=338411) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:09:52.863+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:09:52.864+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:09:52.864+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:09:52.872+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:09:52.896+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:09:52.896+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:09:52.918+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:09:52.918+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:09:52.917920+00:00, run_after=2023-06-29T22:09:52.917920+00:00
+[2023-06-30T00:09:52.945+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.092 seconds
+[2023-06-30T00:10:23.365+0200] {processor.py:157} INFO - Started process (PID=338524) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:10:23.367+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:10:23.368+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:10:23.368+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:10:23.391+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:10:23.436+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:10:23.435+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:10:23.484+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:10:23.483+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:10:23.483503+00:00, run_after=2023-06-29T22:10:23.483503+00:00
+[2023-06-30T00:10:23.525+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.170 seconds
+[2023-06-30T00:10:53.828+0200] {processor.py:157} INFO - Started process (PID=338633) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:10:53.829+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:10:53.830+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:10:53.830+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:10:53.843+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:10:53.871+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:10:53.871+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:10:53.890+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:10:53.890+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:10:53.890384+00:00, run_after=2023-06-29T22:10:53.890384+00:00
+[2023-06-30T00:10:53.921+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.096 seconds
+[2023-06-30T00:11:24.332+0200] {processor.py:157} INFO - Started process (PID=338744) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:11:24.333+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:11:24.334+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:11:24.334+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:11:24.342+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:11:24.367+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:11:24.367+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:11:24.396+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:11:24.396+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:11:24.396105+00:00, run_after=2023-06-29T22:11:24.396105+00:00
+[2023-06-30T00:11:24.425+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.098 seconds
+[2023-06-30T00:11:55.119+0200] {processor.py:157} INFO - Started process (PID=338866) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:11:55.121+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:11:55.122+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:11:55.121+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:11:55.134+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:11:55.168+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:11:55.167+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:11:55.204+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:11:55.204+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:11:55.203955+00:00, run_after=2023-06-29T22:11:55.203955+00:00
+[2023-06-30T00:11:55.273+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.159 seconds
+[2023-06-30T00:12:25.867+0200] {processor.py:157} INFO - Started process (PID=338975) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:12:25.868+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:12:25.869+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:12:25.869+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:12:25.876+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:12:25.901+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:12:25.901+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:12:25.920+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:12:25.920+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:12:25.920374+00:00, run_after=2023-06-29T22:12:25.920374+00:00
+[2023-06-30T00:12:25.970+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.107 seconds
+[2023-06-30T00:12:55.998+0200] {processor.py:157} INFO - Started process (PID=339086) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:12:56.000+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:12:56.001+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:12:56.001+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:12:56.011+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:12:56.051+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:12:56.051+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:12:56.074+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:12:56.074+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:12:56.074483+00:00, run_after=2023-06-29T22:12:56.074483+00:00
+[2023-06-30T00:12:56.105+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.111 seconds
+[2023-06-30T00:13:26.301+0200] {processor.py:157} INFO - Started process (PID=339245) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:13:26.302+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:13:26.304+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:13:26.303+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:13:26.313+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:13:26.347+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:13:26.346+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:13:26.378+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:13:26.378+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:13:26.378353+00:00, run_after=2023-06-29T22:13:26.378353+00:00
+[2023-06-30T00:13:26.413+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.118 seconds
+[2023-06-30T00:13:57.064+0200] {processor.py:157} INFO - Started process (PID=339356) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:13:57.067+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:13:57.067+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:13:57.067+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:13:57.079+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:13:57.120+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:13:57.120+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:13:57.171+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:13:57.171+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:13:57.171147+00:00, run_after=2023-06-29T22:13:57.171147+00:00
+[2023-06-30T00:13:57.213+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.153 seconds
+[2023-06-30T00:14:27.261+0200] {processor.py:157} INFO - Started process (PID=339467) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:14:27.262+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:14:27.262+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:14:27.262+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:14:27.271+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:14:27.296+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:14:27.296+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:14:27.324+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:14:27.324+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:14:27.324171+00:00, run_after=2023-06-29T22:14:27.324171+00:00
+[2023-06-30T00:14:27.361+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.103 seconds
+[2023-06-30T00:14:57.500+0200] {processor.py:157} INFO - Started process (PID=339597) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:14:57.504+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:14:57.505+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:14:57.505+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:14:57.516+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:14:57.540+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:14:57.540+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:14:57.559+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:14:57.559+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:14:57.559137+00:00, run_after=2023-06-29T22:14:57.559137+00:00
+[2023-06-30T00:14:57.580+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2023-06-30T00:15:27.833+0200] {processor.py:157} INFO - Started process (PID=339709) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:15:27.834+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:15:27.835+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:15:27.834+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:15:27.843+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:15:27.868+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:15:27.867+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:15:27.895+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:15:27.894+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:15:27.894169+00:00, run_after=2023-06-29T22:15:27.894169+00:00
+[2023-06-30T00:15:27.921+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.092 seconds
+[2023-06-30T00:15:58.734+0200] {processor.py:157} INFO - Started process (PID=339820) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:15:58.741+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:15:58.742+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:15:58.742+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:15:58.749+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:15:58.771+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:15:58.770+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:15:58.791+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:15:58.790+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:15:58.790649+00:00, run_after=2023-06-29T22:15:58.790649+00:00
+[2023-06-30T00:15:58.819+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.088 seconds
+[2023-06-30T00:16:28.859+0200] {processor.py:157} INFO - Started process (PID=339929) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:16:28.860+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:16:28.860+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:16:28.860+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:16:28.869+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:16:28.892+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:16:28.892+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:16:28.911+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:16:28.911+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:16:28.911375+00:00, run_after=2023-06-29T22:16:28.911375+00:00
+[2023-06-30T00:16:28.938+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.083 seconds
+[2023-06-30T00:16:59.515+0200] {processor.py:157} INFO - Started process (PID=340045) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:16:59.519+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:16:59.520+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:16:59.520+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:16:59.531+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:16:59.564+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:16:59.564+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:16:59.594+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:16:59.594+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:16:59.593614+00:00, run_after=2023-06-29T22:16:59.593614+00:00
+[2023-06-30T00:16:59.623+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.112 seconds
+[2023-06-30T00:17:30.097+0200] {processor.py:157} INFO - Started process (PID=340163) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:17:30.098+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:17:30.099+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:17:30.098+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:17:30.108+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:17:30.132+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:17:30.132+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:17:30.160+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:17:30.160+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:17:30.160039+00:00, run_after=2023-06-29T22:17:30.160039+00:00
+[2023-06-30T00:17:30.191+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.098 seconds
+[2023-06-30T00:18:00.651+0200] {processor.py:157} INFO - Started process (PID=340272) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:18:00.658+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:18:00.659+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:18:00.658+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:18:00.665+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:18:00.686+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:18:00.686+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:18:00.709+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:18:00.709+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:18:00.708850+00:00, run_after=2023-06-29T22:18:00.708850+00:00
+[2023-06-30T00:18:00.733+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.085 seconds
+[2023-06-30T00:18:31.219+0200] {processor.py:157} INFO - Started process (PID=340387) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:18:31.219+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:18:31.220+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:18:31.220+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:18:31.225+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:18:31.244+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:18:31.244+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:18:31.260+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:18:31.260+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:18:31.259893+00:00, run_after=2023-06-29T22:18:31.259893+00:00
+[2023-06-30T00:18:31.284+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.068 seconds
+[2023-06-30T00:19:01.987+0200] {processor.py:157} INFO - Started process (PID=340496) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:19:01.993+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:19:01.993+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:19:01.993+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:19:01.998+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:19:02.016+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:19:02.016+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:19:02.030+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:19:02.030+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:19:02.030573+00:00, run_after=2023-06-29T22:19:02.030573+00:00
+[2023-06-30T00:19:02.056+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2023-06-30T00:19:32.101+0200] {processor.py:157} INFO - Started process (PID=340623) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:19:32.102+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:19:32.102+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:19:32.102+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:19:32.108+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:19:32.124+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:19:32.124+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:19:32.139+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:19:32.138+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:19:32.138754+00:00, run_after=2023-06-29T22:19:32.138754+00:00
+[2023-06-30T00:19:32.162+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2023-06-30T00:20:02.978+0200] {processor.py:157} INFO - Started process (PID=340756) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:20:02.981+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:20:02.982+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:20:02.981+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:20:02.991+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:20:03.011+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:20:03.010+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:20:03.025+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:20:03.025+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:20:03.025247+00:00, run_after=2023-06-29T22:20:03.025247+00:00
+[2023-06-30T00:20:03.046+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.071 seconds
+[2023-06-30T00:20:33.819+0200] {processor.py:157} INFO - Started process (PID=340872) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:20:33.820+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:20:33.820+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:20:33.820+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:20:33.826+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:20:33.846+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:20:33.846+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:20:33.860+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:20:33.860+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:20:33.860554+00:00, run_after=2023-06-29T22:20:33.860554+00:00
+[2023-06-30T00:20:33.889+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.072 seconds
+[2023-06-30T00:21:03.993+0200] {processor.py:157} INFO - Started process (PID=340981) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:21:03.999+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:21:04.000+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:21:04.000+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:21:04.006+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:21:04.023+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:21:04.023+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:21:04.036+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:21:04.036+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:21:04.036252+00:00, run_after=2023-06-29T22:21:04.036252+00:00
+[2023-06-30T00:21:04.058+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2023-06-30T00:21:34.922+0200] {processor.py:157} INFO - Started process (PID=341092) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:21:34.924+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:21:34.924+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:21:34.924+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:21:34.934+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:21:34.958+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:21:34.957+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:21:34.980+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:21:34.980+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:21:34.979910+00:00, run_after=2023-06-29T22:21:34.979910+00:00
+[2023-06-30T00:21:35.008+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.090 seconds
+[2023-06-30T00:22:05.615+0200] {processor.py:157} INFO - Started process (PID=341201) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:22:05.616+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:22:05.617+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:22:05.617+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:22:05.622+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:22:05.638+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:22:05.638+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:22:05.652+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:22:05.652+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:22:05.652165+00:00, run_after=2023-06-29T22:22:05.652165+00:00
+[2023-06-30T00:22:05.672+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2023-06-30T00:22:36.416+0200] {processor.py:157} INFO - Started process (PID=341316) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:22:36.418+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:22:36.418+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:22:36.418+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:22:36.424+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:22:36.438+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:22:36.438+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:22:36.452+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:22:36.452+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:22:36.451934+00:00, run_after=2023-06-29T22:22:36.451934+00:00
+[2023-06-30T00:22:36.471+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.057 seconds
+[2023-06-30T00:23:06.571+0200] {processor.py:157} INFO - Started process (PID=341427) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:23:06.593+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:23:06.593+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:23:06.593+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:23:06.599+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:23:06.617+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:23:06.617+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:23:06.636+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:23:06.635+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:23:06.635720+00:00, run_after=2023-06-29T22:23:06.635720+00:00
+[2023-06-30T00:23:06.757+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.188 seconds
+[2023-06-30T00:23:37.133+0200] {processor.py:157} INFO - Started process (PID=341536) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:23:37.139+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:23:37.139+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:23:37.139+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:23:37.144+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:23:37.161+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:23:37.161+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:23:37.176+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:23:37.176+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:23:37.175982+00:00, run_after=2023-06-29T22:23:37.175982+00:00
+[2023-06-30T00:23:37.214+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.084 seconds
+[2023-06-30T00:24:07.265+0200] {processor.py:157} INFO - Started process (PID=341645) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:24:07.266+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:24:07.266+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:24:07.266+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:24:07.272+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:24:07.292+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:24:07.292+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:24:07.313+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:24:07.313+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:24:07.313203+00:00, run_after=2023-06-29T22:24:07.313203+00:00
+[2023-06-30T00:24:07.340+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.078 seconds
+[2023-06-30T00:24:37.484+0200] {processor.py:157} INFO - Started process (PID=341756) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:24:37.497+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:24:37.497+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:24:37.497+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:24:37.503+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:24:37.518+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:24:37.518+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:24:37.531+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:24:37.531+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:24:37.531363+00:00, run_after=2023-06-29T22:24:37.531363+00:00
+[2023-06-30T00:24:37.551+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.070 seconds
+[2023-06-30T00:25:07.651+0200] {processor.py:157} INFO - Started process (PID=341886) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:25:07.657+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:25:07.658+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:25:07.658+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:25:07.665+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:25:07.682+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:25:07.682+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:25:07.700+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:25:07.700+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:25:07.700427+00:00, run_after=2023-06-29T22:25:07.700427+00:00
+[2023-06-30T00:25:07.721+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.073 seconds
+[2023-06-30T00:25:37.853+0200] {processor.py:157} INFO - Started process (PID=341996) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:25:37.859+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:25:37.860+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:25:37.860+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:25:37.865+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:25:37.881+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:25:37.881+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:25:37.894+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:25:37.894+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:25:37.894314+00:00, run_after=2023-06-29T22:25:37.894314+00:00
+[2023-06-30T00:25:37.918+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.067 seconds
+[2023-06-30T00:26:08.015+0200] {processor.py:157} INFO - Started process (PID=342107) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:26:08.016+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:26:08.017+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:26:08.017+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:26:08.023+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:26:08.042+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:26:08.041+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:26:08.056+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:26:08.056+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:26:08.056097+00:00, run_after=2023-06-29T22:26:08.056097+00:00
+[2023-06-30T00:26:08.077+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.065 seconds
+[2023-06-30T00:26:38.174+0200] {processor.py:157} INFO - Started process (PID=342216) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:26:38.175+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:26:38.175+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:26:38.175+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:26:38.181+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:26:38.200+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:26:38.200+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:26:38.214+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:26:38.214+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:26:38.214611+00:00, run_after=2023-06-29T22:26:38.214611+00:00
+[2023-06-30T00:26:38.234+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2023-06-30T00:27:08.412+0200] {processor.py:157} INFO - Started process (PID=342325) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:27:08.412+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:27:08.413+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:27:08.413+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:27:08.418+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:27:08.435+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:27:08.435+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:27:08.451+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:27:08.451+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:27:08.450944+00:00, run_after=2023-06-29T22:27:08.450944+00:00
+[2023-06-30T00:27:08.473+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds
+[2023-06-30T00:27:38.681+0200] {processor.py:157} INFO - Started process (PID=342434) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:27:38.682+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:27:38.682+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:27:38.682+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:27:38.689+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:27:38.705+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:27:38.705+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:27:38.722+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:27:38.722+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:27:38.721959+00:00, run_after=2023-06-29T22:27:38.721959+00:00
+[2023-06-30T00:27:38.742+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.063 seconds
+[2023-06-30T00:28:08.825+0200] {processor.py:157} INFO - Started process (PID=342551) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:28:08.826+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:28:08.826+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:28:08.826+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:28:08.833+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:28:08.854+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:28:08.854+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:28:08.874+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:28:08.874+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:28:08.873934+00:00, run_after=2023-06-29T22:28:08.873934+00:00
+[2023-06-30T00:28:08.903+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.082 seconds
+[2023-06-30T00:28:38.945+0200] {processor.py:157} INFO - Started process (PID=342660) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:28:38.952+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:28:38.953+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:28:38.953+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:28:38.958+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:28:38.994+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:28:38.994+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:28:39.013+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:28:39.013+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:28:39.012825+00:00, run_after=2023-06-29T22:28:39.012825+00:00
+[2023-06-30T00:28:39.038+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.095 seconds
+[2023-06-30T00:29:09.085+0200] {processor.py:157} INFO - Started process (PID=342771) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:29:09.086+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:29:09.086+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:29:09.086+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:29:09.092+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:29:09.111+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:29:09.110+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:29:09.124+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:29:09.124+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:29:09.124336+00:00, run_after=2023-06-29T22:29:09.124336+00:00
+[2023-06-30T00:29:09.146+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds
+[2023-06-30T00:29:39.377+0200] {processor.py:157} INFO - Started process (PID=342892) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:29:39.378+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:29:39.379+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:29:39.379+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:29:39.384+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:29:39.406+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:29:39.405+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:29:39.426+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:29:39.425+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:29:39.425812+00:00, run_after=2023-06-29T22:29:39.425812+00:00
+[2023-06-30T00:29:39.475+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.100 seconds
+[2023-06-30T00:30:09.635+0200] {processor.py:157} INFO - Started process (PID=343010) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:30:09.636+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:30:09.636+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:30:09.636+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:30:09.642+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:30:09.657+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:30:09.656+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:30:09.672+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:30:09.672+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:30:09.672413+00:00, run_after=2023-06-29T22:30:09.672413+00:00
+[2023-06-30T00:30:09.693+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.060 seconds
+[2023-06-30T00:30:39.893+0200] {processor.py:157} INFO - Started process (PID=343120) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:30:39.894+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:30:39.895+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:30:39.895+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:30:39.901+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:30:39.927+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:30:39.927+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:30:39.962+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:30:39.961+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:30:39.961580+00:00, run_after=2023-06-29T22:30:39.961580+00:00
+[2023-06-30T00:30:39.994+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.104 seconds
+[2023-06-30T00:31:10.186+0200] {processor.py:157} INFO - Started process (PID=343231) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:31:10.186+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:31:10.187+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:31:10.187+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:31:10.193+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:31:10.217+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:31:10.217+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:31:10.231+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:31:10.230+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:31:10.230710+00:00, run_after=2023-06-29T22:31:10.230710+00:00
+[2023-06-30T00:31:10.252+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2023-06-30T00:31:40.289+0200] {processor.py:157} INFO - Started process (PID=343340) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:31:40.296+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:31:40.296+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:31:40.296+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:31:40.304+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:31:40.323+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:31:40.322+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:31:40.341+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:31:40.340+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:31:40.340603+00:00, run_after=2023-06-29T22:31:40.340603+00:00
+[2023-06-30T00:31:40.363+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.077 seconds
+[2023-06-30T00:32:10.386+0200] {processor.py:157} INFO - Started process (PID=343455) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:32:10.387+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:32:10.387+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:32:10.387+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:32:10.393+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:32:10.416+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:32:10.416+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:32:10.434+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:32:10.434+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:32:10.434015+00:00, run_after=2023-06-29T22:32:10.434015+00:00
+[2023-06-30T00:32:10.486+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.102 seconds
+[2023-06-30T00:32:40.582+0200] {processor.py:157} INFO - Started process (PID=343566) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:32:40.590+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:32:40.591+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:32:40.590+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:32:40.596+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:32:40.612+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:32:40.612+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:32:40.626+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:32:40.626+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:32:40.626672+00:00, run_after=2023-06-29T22:32:40.626672+00:00
+[2023-06-30T00:32:40.682+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.102 seconds
+[2023-06-30T00:33:10.706+0200] {processor.py:157} INFO - Started process (PID=343675) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:33:10.707+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:33:10.707+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:33:10.707+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:33:10.713+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:33:10.744+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:33:10.744+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:33:10.758+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:33:10.758+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:33:10.758184+00:00, run_after=2023-06-29T22:33:10.758184+00:00
+[2023-06-30T00:33:10.783+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.080 seconds
+[2023-06-30T00:33:40.932+0200] {processor.py:157} INFO - Started process (PID=343784) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:33:40.938+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:33:40.939+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:33:40.939+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:33:40.944+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:33:40.961+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:33:40.961+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:33:40.975+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:33:40.975+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:33:40.974905+00:00, run_after=2023-06-29T22:33:40.974905+00:00
+[2023-06-30T00:33:40.998+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.069 seconds
+[2023-06-30T00:34:11.080+0200] {processor.py:157} INFO - Started process (PID=343893) to work on /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:34:11.081+0200] {processor.py:826} INFO - Processing file /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-06-30T00:34:11.082+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:34:11.082+0200] {dagbag.py:541} INFO - Filling up the DagBag from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:34:11.090+0200] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-06-30T00:34:11.107+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:34:11.107+0200] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T00:34:11.120+0200] {logging_mixin.py:149} INFO - [2023-06-30T00:34:11.120+0200] {dag.py:3486} INFO - Setting next_dagrun for example_task_group to 2023-06-28T22:34:11.120462+00:00, run_after=2023-06-29T22:34:11.120462+00:00
+[2023-06-30T00:34:11.141+0200] {processor.py:179} INFO - Processing /home/reynel1995/thesis/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.064 seconds

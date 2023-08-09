@@ -1,0 +1,20 @@
+[2023-06-26T07:06:36.534+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.create_folders_and_dockerfiles manual__2023-06-26T04:46:20.386225+00:00 [queued]>
+[2023-06-26T07:06:36.542+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.create_folders_and_dockerfiles manual__2023-06-26T04:46:20.386225+00:00 [queued]>
+[2023-06-26T07:06:36.542+0200] {taskinstance.py:1308} INFO - Starting attempt 6 of 6
+[2023-06-26T07:06:36.559+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): create_folders_and_dockerfiles> on 2023-06-26 04:46:20.386225+00:00
+[2023-06-26T07:06:36.563+0200] {standard_task_runner.py:57} INFO - Started process 115168 to run task
+[2023-06-26T07:06:36.565+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'create_folders_and_dockerfiles', 'manual__2023-06-26T04:46:20.386225+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpluingbyo']
+[2023-06-26T07:06:36.567+0200] {standard_task_runner.py:85} INFO - Job 108: Subtask create_folders_and_dockerfiles
+[2023-06-26T07:06:36.606+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.create_folders_and_dockerfiles manual__2023-06-26T04:46:20.386225+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-26T07:06:36.663+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='create_folders_and_dockerfiles' AIRFLOW_CTX_EXECUTION_DATE='2023-06-26T04:46:20.386225+00:00' AIRFLOW_CTX_TRY_NUMBER='6' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-26T04:46:20.386225+00:00'
+[2023-06-26T07:06:36.664+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: create_folders_and_dockerfiles() missing 1 required positional argument: 'index'
+[2023-06-26T07:06:36.668+0200] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=execute_python, task_id=create_folders_and_dockerfiles, execution_date=20230626T044620, start_date=20230626T050636, end_date=20230626T050636
+[2023-06-26T07:06:36.681+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 108 for task create_folders_and_dockerfiles (create_folders_and_dockerfiles() missing 1 required positional argument: 'index'; 115168)
+[2023-06-26T07:06:36.698+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-26T07:06:36.729+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

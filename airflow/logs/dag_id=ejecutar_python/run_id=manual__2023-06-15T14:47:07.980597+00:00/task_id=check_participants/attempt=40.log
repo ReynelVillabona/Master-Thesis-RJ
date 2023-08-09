@@ -1,0 +1,39 @@
+[2023-06-16T07:39:49.618+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-16T07:39:49.632+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-16T07:39:49.633+0200] {taskinstance.py:1308} INFO - Starting attempt 40 of 41
+[2023-06-16T07:39:49.658+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): check_participants> on 2023-06-15 14:47:07.980597+00:00
+[2023-06-16T07:39:49.665+0200] {standard_task_runner.py:57} INFO - Started process 281329 to run task
+[2023-06-16T07:39:49.668+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ejecutar_python', 'check_participants', 'manual__2023-06-15T14:47:07.980597+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmp_1oeg0t5']
+[2023-06-16T07:39:49.670+0200] {standard_task_runner.py:85} INFO - Job 84: Subtask check_participants
+[2023-06-16T07:39:49.744+0200] {task_command.py:410} INFO - Running <TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-16T07:39:49.835+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ejecutar_python' AIRFLOW_CTX_TASK_ID='check_participants' AIRFLOW_CTX_EXECUTION_DATE='2023-06-15T14:47:07.980597+00:00' AIRFLOW_CTX_TRY_NUMBER='40' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-15T14:47:07.980597+00:00'
+[2023-06-16T07:39:49.836+0200] {logging_mixin.py:149} INFO - ['hola_525', 'hola_526']
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - ['hola_526']
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - New participants found. Creating containers...
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - 1
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - <class 'int'>
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - ['hola_525', 'hola_526']
+[2023-06-16T07:39:49.837+0200] {logging_mixin.py:149} INFO - prueba de lista ['hola_526']
+[2023-06-16T07:39:49.838+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/host_2/1_6-6.mrxs', '/home/reynel1995/Thesis/host_3/1_6-6ST24990mDC.mrxs']
+[2023-06-16T07:39:49.838+0200] {logging_mixin.py:149} INFO - container solito hola_526
+[2023-06-16T07:39:49.838+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_3/1_6-6ST24990mDC.mrxs
+[2023-06-16T07:39:49.838+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_3/1_6-6ST24990mDC.mrxs
+[2023-06-16T07:39:49.838+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_3
+[2023-06-16T07:39:49.838+0200] {logging_mixin.py:149} INFO - nuevo /home/reynel1995/Thesis/hola_526
+[2023-06-16T07:39:49.840+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_526']
+[2023-06-16T07:39:54.939+0200] {logging_mixin.py:149} INFO - Container hola_526 image built successfully.
+[2023-06-16T07:39:55.749+0200] {logging_mixin.py:149} INFO - Container hola_526 started.
+[2023-06-16T07:39:55.750+0200] {logging_mixin.py:149} INFO - copy files function ['/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_526']
+[2023-06-16T07:39:55.750+0200] {logging_mixin.py:149} INFO - hola_526
+[2023-06-16T07:39:55.933+0200] {logging_mixin.py:149} INFO - File /home/reynel1995/Thesis/host_1/Image_analysis.py copied to container hola_526 volume.
+[2023-06-16T07:43:43.728+0200] {logging_mixin.py:149} INFO - Command 'python /app/Image_analysis.py' executed in container hola_526.
+[2023-06-16T07:44:20.675+0200] {logging_mixin.py:149} INFO - Images copied to /home/reynel1995/Thesis/host_1/hola_526
+[2023-06-16T07:44:20.675+0200] {logging_mixin.py:149} INFO - Results saved to directory /home/reynel1995/Thesis/host_1
+[2023-06-16T07:44:20.676+0200] {logging_mixin.py:149} INFO - new participant antes de registrar ['hola_526']
+[2023-06-16T07:44:20.676+0200] {logging_mixin.py:149} INFO - new participant antes de registrar <class 'list'>
+[2023-06-16T07:44:20.745+0200] {logging_mixin.py:149} INFO - Processing completed.
+[2023-06-16T07:44:20.745+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-16T07:44:20.753+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=ejecutar_python, task_id=check_participants, execution_date=20230615T144707, start_date=20230616T053949, end_date=20230616T054420
+[2023-06-16T07:44:21.764+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-16T07:44:21.789+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

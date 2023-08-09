@@ -1,0 +1,141 @@
+[2023-06-15T23:22:00.677+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-15T23:22:00.686+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [queued]>
+[2023-06-15T23:22:00.687+0200] {taskinstance.py:1308} INFO - Starting attempt 11 of 12
+[2023-06-15T23:22:00.746+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): check_participants> on 2023-06-15 14:47:07.980597+00:00
+[2023-06-15T23:22:00.750+0200] {standard_task_runner.py:57} INFO - Started process 127286 to run task
+[2023-06-15T23:22:00.753+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'ejecutar_python', 'check_participants', 'manual__2023-06-15T14:47:07.980597+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpbgk6tja7']
+[2023-06-15T23:22:00.755+0200] {standard_task_runner.py:85} INFO - Job 55: Subtask check_participants
+[2023-06-15T23:22:00.865+0200] {task_command.py:410} INFO - Running <TaskInstance: ejecutar_python.check_participants manual__2023-06-15T14:47:07.980597+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-15T23:22:00.970+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='ejecutar_python' AIRFLOW_CTX_TASK_ID='check_participants' AIRFLOW_CTX_EXECUTION_DATE='2023-06-15T14:47:07.980597+00:00' AIRFLOW_CTX_TRY_NUMBER='11' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-15T14:47:07.980597+00:00'
+[2023-06-15T23:22:00.971+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-15T23:22:00.972+0200] {logging_mixin.py:149} INFO - ['']
+[2023-06-15T23:22:00.972+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-15T23:22:00.972+0200] {logging_mixin.py:149} INFO - New participants found. Creating containers...
+[2023-06-15T23:22:00.972+0200] {logging_mixin.py:149} INFO - 0
+[2023-06-15T23:22:00.972+0200] {logging_mixin.py:149} INFO - <class 'int'>
+[2023-06-15T23:22:00.972+0200] {logging_mixin.py:149} INFO - ['hola_525']
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - prueba de lista ['hola_525']
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/host_2/1_6-6.mrxs']
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - container solito hola_525
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2/1_6-6.mrxs
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2/1_6-6.mrxs
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_2
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - nuevo /home/reynel1995/Thesis/hola_525
+[2023-06-15T23:22:00.973+0200] {logging_mixin.py:149} INFO - ['/home/reynel1995/Thesis/hola_525', '', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525']
+[2023-06-15T23:22:01.870+0200] {logging_mixin.py:149} INFO - Container hola_525 image built successfully.
+[2023-06-15T23:22:02.902+0200] {logging_mixin.py:149} INFO - Container hola_525 started.
+[2023-06-15T23:22:02.903+0200] {logging_mixin.py:149} INFO - copy files function ['/home/reynel1995/Thesis/hola_525', '', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525', '/home/reynel1995/Thesis/hola_525']
+[2023-06-15T23:22:02.903+0200] {logging_mixin.py:149} INFO - hola_525
+[2023-06-15T23:22:03.078+0200] {logging_mixin.py:149} INFO - File /home/reynel1995/Thesis/host_1/Image_analysis.py copied to container hola_525 volume.
+[2023-06-15T23:23:19.868+0200] {logging_mixin.py:149} INFO - aca antes  los procesados [[[255   0   0]
+  [255   0   0]
+  [255   0   0]
+  ...
+  [255   0   0]
+  [255   0   0]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [218 229 233]
+  [218 229 233]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [218 229 233]
+  [218 229 233]
+  [255   0   0]]
+
+ ...
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [216 230 236]
+  [216 230 236]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [216 230 236]
+  [216 230 236]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255   0   0]
+  [255   0   0]
+  ...
+  [255   0   0]
+  [255   0   0]
+  [255   0   0]]]
+[2023-06-15T23:23:19.868+0200] {logging_mixin.py:149} INFO - tipo del output <class 'str'>
+[2023-06-15T23:23:19.869+0200] {logging_mixin.py:149} INFO - aca antes  los output_array [array([255], dtype=uint8)]
+[2023-06-15T23:23:19.869+0200] {logging_mixin.py:149} INFO - tipo del output_array <class 'list'>
+[2023-06-15T23:23:19.869+0200] {logging_mixin.py:149} INFO - Command 'python /app/Image_analysis.py' executed in container hola_525. Output:
+[[[255   0   0]
+  [255   0   0]
+  [255   0   0]
+  ...
+  [255   0   0]
+  [255   0   0]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [218 229 233]
+  [218 229 233]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [218 229 233]
+  [218 229 233]
+  [255   0   0]]
+
+ ...
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [216 230 236]
+  [216 230 236]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255 255 255]
+  [255 255 255]
+  ...
+  [216 230 236]
+  [216 230 236]
+  [255   0   0]]
+
+ [[255   0   0]
+  [255   0   0]
+  [255   0   0]
+  ...
+  [255   0   0]
+  [255   0   0]
+  [255   0   0]]]
+[2023-06-15T23:23:19.869+0200] {logging_mixin.py:149} INFO - /home/reynel1995/Thesis/host_1/hola_525/image_0.jpg
+[2023-06-15T23:23:19.870+0200] {logging_mixin.py:149} INFO - [255]
+[2023-06-15T23:23:19.870+0200] {logging_mixin.py:149} INFO - Results saved to directory /home/reynel1995/Thesis/host_1
+[2023-06-15T23:23:19.872+0200] {logging_mixin.py:149} INFO - new participant antes de registrar ['hola_525']
+[2023-06-15T23:23:19.872+0200] {logging_mixin.py:149} INFO - new participant antes de registrar <class 'list'>
+[2023-06-15T23:23:19.872+0200] {logging_mixin.py:149} INFO - Processing completed.
+[2023-06-15T23:23:19.873+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-15T23:23:19.883+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=ejecutar_python, task_id=check_participants, execution_date=20230615T144707, start_date=20230615T212200, end_date=20230615T212319
+[2023-06-15T23:23:19.923+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-15T23:23:19.945+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

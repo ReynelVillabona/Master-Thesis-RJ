@@ -1,0 +1,16 @@
+[2023-06-30T07:22:16.619+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.branch_task manual__2023-06-30T05:21:56.389689+00:00 [queued]>
+[2023-06-30T07:22:16.625+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.branch_task manual__2023-06-30T05:21:56.389689+00:00 [queued]>
+[2023-06-30T07:22:16.625+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-06-30T07:22:16.673+0200] {taskinstance.py:1327} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2023-06-30 05:21:56.389689+00:00
+[2023-06-30T07:22:16.678+0200] {standard_task_runner.py:57} INFO - Started process 359950 to run task
+[2023-06-30T07:22:16.682+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'branch_task', 'manual__2023-06-30T05:21:56.389689+00:00', '--job-id', '156', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpa82rkdr1']
+[2023-06-30T07:22:16.684+0200] {standard_task_runner.py:85} INFO - Job 156: Subtask branch_task
+[2023-06-30T07:22:16.800+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.branch_task manual__2023-06-30T05:21:56.389689+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-30T07:22:17.047+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='branch_task' AIRFLOW_CTX_EXECUTION_DATE='2023-06-30T05:21:56.389689+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-30T05:21:56.389689+00:00'
+[2023-06-30T07:22:17.054+0200] {python.py:183} INFO - Done. Returned value was: copy_file_to_containers
+[2023-06-30T07:22:17.055+0200] {python.py:216} INFO - Branch callable return copy_file_to_containers
+[2023-06-30T07:22:17.055+0200] {skipmixin.py:161} INFO - Following branch copy_file_to_containers
+[2023-06-30T07:22:17.055+0200] {skipmixin.py:221} INFO - Skipping tasks ['create_folders_and_dockerfiles']
+[2023-06-30T07:22:17.288+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=execute_python, task_id=branch_task, execution_date=20230630T052156, start_date=20230630T052216, end_date=20230630T052217
+[2023-06-30T07:22:17.379+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-30T07:22:17.411+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

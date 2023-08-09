@@ -1,0 +1,28 @@
+[2023-07-07T13:44:03.908+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.execute_command_in_containers manual__2023-07-07T11:43:25.436870+00:00 [queued]>
+[2023-07-07T13:44:03.921+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.execute_command_in_containers manual__2023-07-07T11:43:25.436870+00:00 [queued]>
+[2023-07-07T13:44:03.922+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-07-07T13:44:03.953+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): execute_command_in_containers> on 2023-07-07 11:43:25.436870+00:00
+[2023-07-07T13:44:03.958+0200] {standard_task_runner.py:57} INFO - Started process 488737 to run task
+[2023-07-07T13:44:03.967+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'execute_command_in_containers', 'manual__2023-07-07T11:43:25.436870+00:00', '--job-id', '734', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpvotut6no']
+[2023-07-07T13:44:03.970+0200] {standard_task_runner.py:85} INFO - Job 734: Subtask execute_command_in_containers
+[2023-07-07T13:44:04.025+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.execute_command_in_containers manual__2023-07-07T11:43:25.436870+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-07-07T13:44:04.192+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='execute_command_in_containers' AIRFLOW_CTX_EXECUTION_DATE='2023-07-07T11:43:25.436870+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-07T11:43:25.436870+00:00'
+[2023-07-07T13:44:04.194+0200] {logging_mixin.py:149} INFO - python /app/classify_image.py
+[2023-07-07T13:44:06.276+0200] {logging_mixin.py:149} INFO - <Container: c552592d1b14>
+[2023-07-07T13:44:13.390+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 257, in execute_command_in_containers
+    data = json.loads(output)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 1 column 5 (char 4)
+[2023-07-07T13:44:13.402+0200] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=execute_python, task_id=execute_command_in_containers, execution_date=20230707T114325, start_date=20230707T114403, end_date=20230707T114413
+[2023-07-07T13:44:13.424+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 734 for task execute_command_in_containers (Extra data: line 1 column 5 (char 4); 488737)
+[2023-07-07T13:44:13.448+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-07T13:44:13.498+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

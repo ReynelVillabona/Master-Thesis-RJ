@@ -1,0 +1,13 @@
+[2023-07-04T14:25:04.862+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.remove_first_line_participants manual__2023-07-04T12:22:57.191471+00:00 [queued]>
+[2023-07-04T14:25:04.874+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.remove_first_line_participants manual__2023-07-04T12:22:57.191471+00:00 [queued]>
+[2023-07-04T14:25:04.874+0200] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-07-04T14:25:04.893+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): remove_first_line_participants> on 2023-07-04 12:22:57.191471+00:00
+[2023-07-04T14:25:04.898+0200] {standard_task_runner.py:57} INFO - Started process 8283 to run task
+[2023-07-04T14:25:04.908+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'remove_first_line_participants', 'manual__2023-07-04T12:22:57.191471+00:00', '--job-id', '430', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmp2utf84ox']
+[2023-07-04T14:25:04.910+0200] {standard_task_runner.py:85} INFO - Job 430: Subtask remove_first_line_participants
+[2023-07-04T14:25:04.980+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.remove_first_line_participants manual__2023-07-04T12:22:57.191471+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-07-04T14:25:05.111+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='remove_first_line_participants' AIRFLOW_CTX_EXECUTION_DATE='2023-07-04T12:22:57.191471+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-04T12:22:57.191471+00:00'
+[2023-07-04T14:25:05.113+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-04T14:25:05.119+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=execute_python, task_id=remove_first_line_participants, execution_date=20230704T122257, start_date=20230704T122504, end_date=20230704T122505
+[2023-07-04T14:25:05.157+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-04T14:25:05.235+0200] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2023-07-08T19:50:07.129+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.save_container_info manual__2023-07-08T17:47:48.373102+00:00 [queued]>
+[2023-07-08T19:50:07.138+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.save_container_info manual__2023-07-08T17:47:48.373102+00:00 [queued]>
+[2023-07-08T19:50:07.138+0200] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-07-08T19:50:07.159+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): save_container_info> on 2023-07-08 17:47:48.373102+00:00
+[2023-07-08T19:50:07.166+0200] {standard_task_runner.py:57} INFO - Started process 599589 to run task
+[2023-07-08T19:50:07.169+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'save_container_info', 'manual__2023-07-08T17:47:48.373102+00:00', '--job-id', '847', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmpzxgdvd1s']
+[2023-07-08T19:50:07.170+0200] {standard_task_runner.py:85} INFO - Job 847: Subtask save_container_info
+[2023-07-08T19:50:07.226+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.save_container_info manual__2023-07-08T17:47:48.373102+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-07-08T19:50:07.357+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='save_container_info' AIRFLOW_CTX_EXECUTION_DATE='2023-07-08T17:47:48.373102+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-08T17:47:48.373102+00:00'
+[2023-07-08T19:50:07.360+0200] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/reynel1995/thesis/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/reynel1995/airflow/dags/thesis_container.py", line 390, in save_container_info
+    f.write(f"{username} - {process_selection} - {file_path}\n")
+UnboundLocalError: local variable 'file_path' referenced before assignment
+[2023-07-08T19:50:07.367+0200] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=execute_python, task_id=save_container_info, execution_date=20230708T174748, start_date=20230708T175007, end_date=20230708T175007
+[2023-07-08T19:50:07.383+0200] {standard_task_runner.py:104} ERROR - Failed to execute job 847 for task save_container_info (local variable 'file_path' referenced before assignment; 599589)
+[2023-07-08T19:50:07.422+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-08T19:50:07.470+0200] {taskinstance.py:2651} INFO - 0 downstream tasks scheduled from follow-on schedule check

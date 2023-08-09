@@ -1,0 +1,15 @@
+[2023-06-29T23:50:06.478+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: execute_python.build_and_run_containers manual__2023-06-26T04:46:20.386225+00:00 [queued]>
+[2023-06-29T23:50:06.485+0200] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: execute_python.build_and_run_containers manual__2023-06-26T04:46:20.386225+00:00 [queued]>
+[2023-06-29T23:50:06.485+0200] {taskinstance.py:1308} INFO - Starting attempt 2 of 3
+[2023-06-29T23:50:06.504+0200] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): build_and_run_containers> on 2023-06-26 04:46:20.386225+00:00
+[2023-06-29T23:50:06.508+0200] {standard_task_runner.py:57} INFO - Started process 333275 to run task
+[2023-06-29T23:50:06.511+0200] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'execute_python', 'build_and_run_containers', 'manual__2023-06-26T04:46:20.386225+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/thesis_container.py', '--cfg-path', '/tmp/tmp_u_0u44g']
+[2023-06-29T23:50:06.512+0200] {standard_task_runner.py:85} INFO - Job 140: Subtask build_and_run_containers
+[2023-06-29T23:50:06.557+0200] {task_command.py:410} INFO - Running <TaskInstance: execute_python.build_and_run_containers manual__2023-06-26T04:46:20.386225+00:00 [running]> on host DESKTOP-3KJU1M7.
+[2023-06-29T23:50:06.626+0200] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='execute_python' AIRFLOW_CTX_TASK_ID='build_and_run_containers' AIRFLOW_CTX_EXECUTION_DATE='2023-06-26T04:46:20.386225+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-26T04:46:20.386225+00:00'
+[2023-06-29T23:50:07.417+0200] {logging_mixin.py:149} INFO - Container reynel_95 image built successfully.
+[2023-06-29T23:50:08.438+0200] {logging_mixin.py:149} INFO - Container reynel_95 started.
+[2023-06-29T23:50:08.439+0200] {python.py:183} INFO - Done. Returned value was: None
+[2023-06-29T23:50:08.445+0200] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=execute_python, task_id=build_and_run_containers, execution_date=20230626T044620, start_date=20230629T215006, end_date=20230629T215008
+[2023-06-29T23:50:08.492+0200] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-29T23:50:08.564+0200] {taskinstance.py:2651} INFO - 1 downstream tasks scheduled from follow-on schedule check
