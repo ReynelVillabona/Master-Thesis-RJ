@@ -411,13 +411,13 @@ def remove_first_line(file_path):
 ####################################################
 
 # Path of the participants file
-participants_file = '/home/reynel1995/Thesis/participants.txt'
+participants_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/participants.txt'
 
 # Path of the processed containers tracking file
-processed_containers_file = '/home/reynel1995/Thesis/processed_container.txt'
+processed_containers_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/processed_container.txt'
 
 # Path of the file paths
-file_paths_file = "/home/reynel1995/Thesis/file_paths.txt"
+file_paths_file = "/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt"
 
 #######################################################
 
