@@ -17,7 +17,7 @@ default_args = {
     'retry_delay': timedelta(minutes=1)
 }
 
-dag = DAG('execute_python', default_args=default_args, schedule_interval='*/5 * * * *')
+dag = DAG('execute_python', default_args=default_args, schedule_interval=None)
 
 
             
@@ -76,7 +76,7 @@ def decide_next_task(**kwargs):
 
 def create_folders_and_dockerfiles():
     # Read the file path
-    with open('/home/reynel1995/Thesis/file_paths.txt', 'r') as f:
+    with open('/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt', 'r') as f:
         file_paths = f.read().splitlines()
 
     if file_paths:
@@ -148,7 +148,7 @@ def build_and_run_containers(username):
     container_id = username
         
     # Read the file paths file.
-    with open('/home/reynel1995/Thesis/file_paths.txt', 'r') as f:
+    with open('/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt', 'r') as f:
         file_paths = f.read().splitlines()
 
     if file_paths:
@@ -179,13 +179,13 @@ def build_and_run_containers(username):
 def copy_file_to_containers(username, process_selection):
     # Determine the source file based on the process
     if process_selection == 'read_image':
-        source_file = '/home/reynel1995/Thesis/host_1/read_image.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/read_image.py'
     elif process_selection == 'clean_tiles':
-        source_file = '/home/reynel1995/Thesis/host_1/clean_tiles.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/clean_tiles.py'
     elif process_selection == 'apply_watershed':
-        source_file = '/home/reynel1995/Thesis/host_1/apply_watershed.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/apply_watershed.py'
     elif process_selection == 'classify_image':
-        source_file = '/home/reynel1995/Thesis/host_1/classify_image.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/classify_image.py'
     else:
         raise ValueError("Invalid process.")
 
@@ -201,13 +201,13 @@ def copy_file_to_containers(username, process_selection):
 
         # If process_selection is 'clean_tiles', also copy the values.json file
         if process_selection == 'clean_tiles':
-            values_file = f'/home/reynel1995/Thesis/host_1/{username}/values.json'
+            values_file = f'/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/{username}/values.json'
             copy_values_command = f"docker cp {values_file} {container_id}:/app/"
             os.system(copy_values_command)
             
         # If process_selection is 'classify_image', also copy the values.json file
         if process_selection == 'classify_image':
-            model_file = f'/home/reynel1995/Thesis/host_1/model.h5'
+            model_file = f'/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/model.h5'
             copy_values_command = f"docker cp {model_file} {container_id}:/app/"
             os.system(copy_values_command)
 
@@ -226,13 +226,13 @@ def copy_file_to_containers(username, process_selection):
 def execute_command_in_containers(username, process_selection):
     # Determine the source file based on the process selection
     if process_selection == 'read_image':
-        source_file = '/home/reynel1995/Thesis/host_1/read_image.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/read_image.py'
     elif process_selection == 'clean_tiles':
-        source_file = '/home/reynel1995/Thesis/host_1/clean_tiles.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/clean_tiles.py'
     elif process_selection == 'apply_watershed':
-        source_file = '/home/reynel1995/Thesis/host_1/apply_watershed.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/apply_watershed.py'
     elif process_selection == 'classify_image':
-        source_file = '/home/reynel1995/Thesis/host_1/classify_image.py'
+        source_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/classify_image.py'
     else:
         raise ValueError("Invalid process selection.")
     
@@ -242,7 +242,7 @@ def execute_command_in_containers(username, process_selection):
 
     client = docker.from_env()
 
-    output_directory = "/home/reynel1995/Thesis/host_1"  # Output directory
+    output_directory = "/home/reynel1995/Master-Thesis-RJ/Thesis/host_1"  # Output directory
 
     try:
         # Get the container ID (participant name)
@@ -373,11 +373,11 @@ def execute_command_in_containers(username, process_selection):
 ####################################################
 
 def save_container_info(username, process_selection):
-    output_directory = "/home/reynel1995/Thesis"
+    output_directory = "/home/reynel1995/Master-Thesis-RJ/Thesis"
     processed_file = os.path.join(output_directory, "processed_container.txt")
     
     # Read the file path
-    with open('/home/reynel1995/Thesis/file_paths.txt', 'r') as f:
+    with open('/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt', 'r') as f:
         file_paths = f.read().splitlines()
 
     if file_paths:

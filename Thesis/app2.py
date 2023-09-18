@@ -9,7 +9,7 @@ from dash.exceptions import PreventUpdate
 import time
 
 
-processed_containers_file_path = '/home/reynel1995/Thesis/processed_container.txt'
+processed_containers_file_path = '/home/reynel1995/Master-Thesis-RJ/Thesis/processed_container.txt'
 
 app = dash.Dash(__name__)
 
@@ -20,8 +20,8 @@ app = dash.Dash(__name__)
 
 
 def create_files_if_not_exist():
-    participants_file = '/home/reynel1995/Thesis/participants.txt'
-    file_paths_file = '/home/reynel1995/Thesis/file_paths.txt'
+    participants_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/participants.txt'
+    file_paths_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt'
 
     if not os.path.isfile(participants_file):
         with open(participants_file, 'w') as f:
@@ -34,7 +34,7 @@ def create_files_if_not_exist():
        
 def show_results():
     
-    output_directory = "/home/reynel1995/Thesis/host_1"
+    output_directory = "/home/reynel1995/Master-Thesis-RJ/Thesis/host_1"
 
     if not os.path.isfile(processed_containers_file_path) or os.stat(processed_containers_file_path).st_size == 0:
         return html.Div("No results available.", style={'margin-top': '10px'})
@@ -180,7 +180,7 @@ def create_container(n_clicks, file_path, username, process_selection):
         
              
                 
-        processed_containers_file = '/home/reynel1995/Thesis/processed_container.txt'
+        processed_containers_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/processed_container.txt'
         
         # Verificar si el usuario y el proceso ya existen en el archivo
         if os.path.isfile(processed_containers_file):
@@ -206,8 +206,8 @@ def create_container(n_clicks, file_path, username, process_selection):
                     create_files_if_not_exist()
                     
                     
-                    participants_file = '/home/reynel1995/Thesis/participants.txt'
-                    file_paths_file = '/home/reynel1995/Thesis/file_paths.txt'
+                    participants_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/participants.txt'
+                    file_paths_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt'
                                 
 
                     with open(participants_file, 'a') as f:
@@ -257,7 +257,7 @@ def create_container(n_clicks, file_path, username, process_selection):
         
                 if existing_username == username and existing_file_path == file_path and process_selection == 'clean_tiles':
                         # Leer el archivo variables.json
-                        variables_file = os.path.join('/home/reynel1995/Thesis/host_1', existing_username, 'variables.json')
+                        variables_file = os.path.join('/home/reynel1995/Master-Thesis-RJ/Thesis/host_1', existing_username, 'variables.json')
                         with open(variables_file, 'r') as f:
                             variables_data = json.load(f)
 
@@ -298,12 +298,13 @@ def create_container(n_clicks, file_path, username, process_selection):
                         )
         
 
-        if file_path and file_path.endswith('.mrxs'):
+        if file_path and (file_path.endswith('.mrxs') or file_path.endswith('.jpg') or file_path.endswith('.png')):
+
             create_files_if_not_exist()
             
             
-            participants_file = '/home/reynel1995/Thesis/participants.txt'
-            file_paths_file = '/home/reynel1995/Thesis/file_paths.txt'
+            participants_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/participants.txt'
+            file_paths_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt'
                          
 
             with open(participants_file, 'a') as f:
@@ -339,7 +340,7 @@ def remove_process(n_clicks, username, file_path, process_selection):
     
     if n_clicks > 0:
         # Ruta del archivo processed_container.txt
-        container_path = '/home/reynel1995/Thesis/processed_container.txt'
+        container_path = '/home/reynel1995/Master-Thesis-RJ/Thesis/processed_container.txt'
         print("container_path:", container_path)
         
         # Verificar si el archivo processed_container.txt existe
@@ -364,7 +365,7 @@ def remove_process(n_clicks, username, file_path, process_selection):
                     container_id.exec_run(command)
                     
                     # Remove variables.json and read_image_response.txt from the host1 folder
-                    host1_folder = f'/home/reynel1995/Thesis/host_1/{username}'
+                    host1_folder = f'/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/{username}'
                     os.remove(os.path.join(host1_folder, 'variables.json'))
                     os.remove(os.path.join(host1_folder, 'response_read_image.txt'))
     
@@ -374,7 +375,7 @@ def remove_process(n_clicks, username, file_path, process_selection):
                     container_id.exec_run(command)
                     
                     # Remove clean_tiles.json, values.json, and clean_tiles_response.txt from the host1 folder
-                    host1_folder = f'/home/reynel1995/Thesis/host_1/{username}'
+                    host1_folder = f'/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/{username}'
                     os.remove(os.path.join(host1_folder, 'clean_tiles.json'))
                     os.remove(os.path.join(host1_folder, 'values.json'))
                     os.remove(os.path.join(host1_folder, 'response_clean_tiles.txt'))
@@ -385,7 +386,7 @@ def remove_process(n_clicks, username, file_path, process_selection):
                     container_id.exec_run(command)
                     
                     # Remove clean_tiles.json, values.json, and clean_tiles_response.txt from the host1 folder
-                    host1_folder = f'/home/reynel1995/Thesis/host_1/{username}'
+                    host1_folder = f'/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/{username}'
                     os.remove(os.path.join(host1_folder, 'watershed_tiles.json'))
                     os.remove(os.path.join(host1_folder, 'response_watershed_tiles.txt'))
                     
@@ -395,7 +396,7 @@ def remove_process(n_clicks, username, file_path, process_selection):
                     container_id.exec_run(command)
                     
                     # Remove clean_tiles.json, values.json, and clean_tiles_response.txt from the host1 folder
-                    host1_folder = f'/home/reynel1995/Thesis/host_1/{username}'
+                    host1_folder = f'/home/reynel1995/Master-Thesis-RJ/Thesis/host_1/{username}'
                     os.remove(os.path.join(host1_folder, 'response_classify_image.txt'))
                 
                 # Obtener la lista de nombres de usuario únicos en el archivo procesado
@@ -455,7 +456,7 @@ def handle_extraction_slide_button(n_clicks, xml, file_path, username, process_s
             return html.Div("For this process, both a .mrxs and .xml file path must be specified", style={'color': 'red'})
 
         # Crear el directorio del usuario si no existe
-        user_directory = os.path.join('/home/reynel1995/Thesis/host_1', username)
+        user_directory = os.path.join('/home/reynel1995/Master-Thesis-RJ/Thesis/host_1', username)
         if not os.path.exists(user_directory):
             os.makedirs(user_directory)
 
@@ -469,12 +470,12 @@ def handle_extraction_slide_button(n_clicks, xml, file_path, username, process_s
             json.dump(data, f)
 
         # Actualizar el archivo "participants.txt" con el usuario y el proceso correspondiente
-        participants_file = '/home/reynel1995/Thesis/participants.txt'
+        participants_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/participants.txt'
         with open(participants_file, 'a') as f:
             f.write(f'{username} - {process_selection}\n')
 
         # Actualizar el archivo "file_paths.txt" con el file_path correspondiente
-        file_paths_file = '/home/reynel1995/Thesis/file_paths.txt'
+        file_paths_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt'
         with open(file_paths_file, 'a') as f:
             f.write(f'{file_path}\n')
 
@@ -505,7 +506,7 @@ def handle_clean_slide_button(n_clicks, resolution, zoom, file_path, username, p
             return html.Div("Please select a resolution, zoom level, and file path.", style={'color': 'red'})
 
         # Crear el directorio del usuario si no existe
-        user_directory = os.path.join('/home/reynel1995/Thesis/host_1', username)
+        user_directory = os.path.join('/home/reynel1995/Master-Thesis-RJ/Thesis/host_1', username)
         if not os.path.exists(user_directory):
             os.makedirs(user_directory)
 
@@ -520,12 +521,12 @@ def handle_clean_slide_button(n_clicks, resolution, zoom, file_path, username, p
             json.dump(data, f)
 
         # Actualizar el archivo "participants.txt" con el usuario y el proceso correspondiente
-        participants_file = '/home/reynel1995/Thesis/participants.txt'
+        participants_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/participants.txt'
         with open(participants_file, 'a') as f:
             f.write(f'{username} - {process_selection}\n')
 
         # Actualizar el archivo "file_paths.txt" con el file_path correspondiente
-        file_paths_file = '/home/reynel1995/Thesis/file_paths.txt'
+        file_paths_file = '/home/reynel1995/Master-Thesis-RJ/Thesis/file_paths.txt'
         with open(file_paths_file, 'a') as f:
             f.write(f'{file_path}\n')
 
